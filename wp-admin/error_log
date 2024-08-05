@@ -1,0 +1,37 @@
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[02-Apr-2023 01:14:50 UTC] PHP Warning:  Undefined array key "data" in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 175
+[02-Apr-2023 01:46:22 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "translations" on null in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-updater.php:81
+Stack trace:
+#0 /home1/vitoriah/hellodrop.com.br/wp-includes/class-wp-hook.php(310): WC_Helper_Updater::transient_update_plugins(NULL)
+#1 /home1/vitoriah/hellodrop.com.br/wp-includes/plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/vitoriah/hellodrop.com.br/wp-includes/option.php(2036): apply_filters('pre_set_site_tr...', NULL, 'update_plugins')
+#3 /home1/vitoriah/hellodrop.com.br/wp-content/plugins/jet-tabs/includes/modules/jet-dashboard/inc/license-manager.php(123): set_site_transient('update_plugins', NULL)
+#4 /home1/vitoriah/hellodrop.com.br/wp-includes/class-wp-hook.php(308): Jet_Dashboard\License_Manager->jet_license_action('')
+#5 /home1/vitoriah/hellodrop.com.br/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /home1/vitoriah/hellodrop.com.br/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home1/vitoriah/hellodrop.com.br/wp-admin/admin-ajax.php(188): do_action('wp_ajax_jet_lic...')
+#8 {main}
+  thrown in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-updater.php on line 81
+[02-Apr-2023 01:59:07 UTC] PHP Warning:  Undefined array key "data" in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 175
+[02-Apr-2023 02:38:26 UTC] PHP Warning:  unlink(icons8-shopify-48.svg): No such file or directory in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php on line 199
+[02-Apr-2023 02:43:44 UTC] PHP Warning:  unlink(shopify.svg): No such file or directory in /home1/vitoriah/hellodrop.com.br/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php on line 199
+[23-Aug-2023 17:12:43 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/vitoriah/hellodrop.com.br/wp-includes/class-wp-image-editor-imagick.php on line 438
